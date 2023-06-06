@@ -37,7 +37,7 @@ void func(vs arr) {
                 case 't' :
                     ci = 5;
                     break;
-                default :           // acgtn 제외한 값(공백)
+                default :
                     break;
             }
         else
