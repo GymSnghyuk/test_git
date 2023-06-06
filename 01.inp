@@ -1,0 +1,23 @@
+7
+ctgaatgaccnna
+gtatcga
+agtctgcaatg
+gttactaganngata
+cttaaagttaacccgta
+tgaaccgtaga
+agcctga
+ttattattaaagtaga
+tcgga
+aattttggggaaaattttgg
+ccctgnngtaga
+
+int az[3];
+
+    for(int i=0;i<Reads.size();i++)
+        for(int j=0;j<3;j++)
+            if(Reads[i] == answer[j]) {
+                az[j] = i + 1;
+                break;
+            }
+
+    cout << az[0] << "\n" << az[1] << "\n" << az[2];
